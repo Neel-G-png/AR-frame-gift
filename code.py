@@ -25,7 +25,7 @@ rec=0
 #instatiate flask app  
 app = Flask(__name__)
 
-im_src = cv2.imread("new_scenery.jpg")
+# im_src = cv2.imread("new_scenery.jpg")
 camera = cv2.VideoCapture(0)
 
 
