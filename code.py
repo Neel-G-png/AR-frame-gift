@@ -111,11 +111,11 @@ def gen_frames():  # generate frame by frame from camera
                 # print(e)
                 time.sleep(1)
                 counter+=1
-                if counter>=5:
+                if counter>=10:
                     camera.release()
                     cap2.release()
                     # p.stop()
-                    print("TIME OUT !!!!!!!!!!")
+                    # print("TIME OUT !!!!!!!!!!")
                     break
                 
         else:
