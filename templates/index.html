@@ -1,0 +1,25 @@
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8  offset-lg-2">
+    
+                
+                <h2 class="mt-5" style="text-align: center;">HAPPY BIRTHDAY VANSHIKA</h2>
+                
+                <img src="{{ url_for('video_feed') }}" height="80%">
+                <h3 style="font-family:courier; text-align: center;">Instructions:</h3>
+                <ol style="font-family:courier; text-align: center;">
+                
+                <li>Point your camera at frame</li>
+                <li>Stay still</li>
+                <li>Watch the magic</li>
+                <li>Enjoy your day</li>	
+                
+            </div>
+        </div>
+    </div>
+    <audio controls autoplay style="text-align: center;">
+        <source src="{{ url_for('static', filename='cp.mp3') }}" type="audio/mpeg">
+      Your browser does not support the audio element.
+      </audio>
+</body>
