@@ -1,5 +1,5 @@
 # Augmented reality Photo frame 
-* Incredible as a birthday gift ;) *
+*Incredible as a birthday gift ;)*
 
 ## How to use
 1. Buy a photo frame 
